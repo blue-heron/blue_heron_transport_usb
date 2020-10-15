@@ -2,7 +2,7 @@ defmodule BlueHeronTransportUSB.MixProject do
   use Mix.Project
 
   @version "0.1.0"
-  @source_url "https://github.com/smartrent/blue_heron/tree/main/blue_heron_transport_usb"
+  @source_url "https://github.com/blue-heron/blue_heron_transport_usb"
 
   def project do
     [
