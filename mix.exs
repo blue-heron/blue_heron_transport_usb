@@ -36,7 +36,7 @@ defmodule BlueHeronTransportUSB.MixProject do
   defp deps do
     [
       # {:blue_heron, path: "../blue_heron"},
-      {:blue_heron, "~> 0.1.0"},
+      {:blue_heron, "~> 0.3.0"},
       {:elixir_make, "~> 0.6.0", runtime: false},
       {:ex_doc, "~> 0.22", only: :docs, runtime: false},
       {:dialyxir, "~> 1.0.0", only: [:dev, :test], runtime: false},
