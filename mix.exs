@@ -37,9 +37,9 @@ defmodule BlueHeronTransportUSB.MixProject do
     [
       # {:blue_heron, path: "../blue_heron"},
       {:blue_heron, "~> 0.3.0"},
-      {:elixir_make, "~> 0.6.0", runtime: false},
+      {:elixir_make, "~> 0.7.0", runtime: false},
       {:ex_doc, "~> 0.22", only: :docs, runtime: false},
-      {:dialyxir, "~> 1.0.0", only: [:dev, :test], runtime: false},
+      {:dialyxir, "~> 1.3", only: [:dev, :test], runtime: false},
       {:credo, "~> 1.2", only: :test, runtime: false}
     ]
   end
